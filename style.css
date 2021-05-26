@@ -1,0 +1,242 @@
+header
+{
+     float: center;
+}
+
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 4em;
+  
+}
+
+.main-nav
+{
+	padding-left: 450px;
+    list-style:decimal;
+    
+}
+
+.main-nav li
+{
+    display:inline-block;
+}
+
+.main-nav li a
+{
+    color:white ;
+    text-decoration:none;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-size: 15px;  
+}
+
+.main-nav li.active a
+{
+    color: #be9c79;
+	text-decoration: underline;
+	
+}
+
+.main-nav li a:hover 
+{
+    
+    border-radius: 5px 5px ;
+    position:static;
+	background-color:#be9c79;
+	color: black;
+	text-decoration: none;
+    
+}
+
+
+#p01
+{
+	border: 0;
+	background: #be9c79;
+	border-radius: 4px;
+	color: black;
+	cursor: pointer;
+	font-family: Montserrat;
+	font-size: 18px;
+	margin-left: 600px;
+	outline: 0;
+	padding: 8.8px 24px;
+	transition: all .1ms linear;
+}
+
+#frame
+{
+	position: center;
+	z-index:1;
+}
+
+section
+{
+	float:center;
+	padding-top: 230px;
+	font-family: Montserrat;
+}
+
+section h1{
+	font-size: 45px;
+	font-family: Montserrat;
+	color: white;
+	text-align: center;
+}
+
+#desc
+{
+	font-size: 20px;
+	font-family: Montserrat Thin;
+	color: white;
+	text-align: center;
+}
+body
+{
+	font-family: Montserrat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(bg.jpg)
+	
+}
+
+#milktea
+{
+	font-family: Montserrat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(mt.jpg)
+}
+
+#coffee
+{
+	font-family: Montserrat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(coffee.png)
+}
+
+#about
+{
+	font-family: Montserrat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(abt.png)
+}
+
+.sec1{
+	position: absolute;
+	padding-top: 60px;
+	width: 350px;
+	opacity: 90%;
+}
+
+.sec2{
+	position: absolute;
+	padding-top: 60px;
+	padding-left: 990px;
+	width: 350px;
+	
+}
+
+.container-coffee{
+	color: white;
+	padding-top: 20 px;
+	padding-right: 50px;
+	float: right;
+	
+}
+
+.container-milktea{
+	color: white;
+	padding-top: 20 px;
+	padding-right: 50px;
+	float: right;
+	
+}
+
+.coffee-table tr td {
+	padding: 5px;
+}
+
+.milktea-table tr td {
+	padding: 5px;
+}
+
+
+.footer
+{
+	margin-top:50px;
+	height: 70px;
+	width: 100%;
+	margin-top: 300px;
+	padding-top: 5px;
+	background-color: black;
+	opacity: 80%;
+	color: #1DE9B6;
+	text-align: center;
+
+}
+
+.milktea
+{
+	height: 70px;
+	width: 100%;
+	margin-top: 800px;
+	padding-top: 5px;
+	background-color: black;
+	opacity: 80%;
+	color: #1DE9B6;
+	text-align: center;
+
+}
+
+.coffee{
+	height: 70px;
+	width: 100%;
+	margin-top: 800px;
+	padding-top: 5px;
+	background-color: black;
+	opacity: 80%;
+	color: #1DE9B6;
+	text-align: center;
+}
+
+.heading{
+	font-family: ;
+	font-size: 40px;
+	text-align: center;
+	color: #be9c79;
+	margin: 0px;
+	padding-bottom: 25px;
+}
+.desc{
+
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: center;
+	color: white;
+	justify-content: center;
+	font-family: Montserrat;
+}
+
+.cent{
+	text-align: center;
+	margin: 0;
+}
+
+.abt{
+	height: 70px;
+	width: 100%;
+	margin-top: 250px;
+	padding-top: 5px;
+	background-color: black;
+	opacity: 80%;
+	color: #1DE9B6;
+	text-align: center;
+}
+
+
+
